@@ -3,7 +3,7 @@
   hosts: all
   tasks:
    - name: Hello world
-     command: echo "Hello world - ssh configuration"
+     command: echo "Hello world - ssh configuration - webhook push"
      register: output
    - debug:
       var: output
