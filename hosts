@@ -1,0 +1,15 @@
+[webserver]
+node1
+[db]
+node1
+[monitor]
+node2
+[webserver:children]
+db
+monitor
+[all:vars]
+package=ntp
+package1=wget
+
+[Jen]
+jenkins
