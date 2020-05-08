@@ -3,4 +3,4 @@
   hosts: all
   tasks:
    - name: Hello world
-     command: echo "Hello world"
+     command: echo "Hello world - ssh configuration"
