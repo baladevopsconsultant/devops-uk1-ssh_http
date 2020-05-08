@@ -4,3 +4,6 @@
   tasks:
    - name: Hello world
      command: echo "Hello world - ssh configuration"
+     register: output
+   - debug:
+      var: output
