@@ -3,7 +3,7 @@
   hosts: node4
   tasks:
    - name: Hello world
-     command: echo "Hello world - git-http configuration"
+     command: echo "Hello world - git-ssh configuration"
      register: output
    - debug:
       var: output
