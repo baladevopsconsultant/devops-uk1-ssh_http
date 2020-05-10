@@ -3,7 +3,7 @@
   hosts: node4
   tasks:
    - name: Hello world
-     command: echo "Hello world - git-ssh configuration"
+     command: echo "Hello world - git-webhook intergration"
      register: output
    - debug:
       var: output
