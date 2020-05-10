@@ -1,6 +1,6 @@
 ---
 - name: Good to go
-  hosts: all
+  hosts: node4
   tasks:
    - name: Hello world
      command: echo "Hello world - ssh configuration - github-webhook/ push"
